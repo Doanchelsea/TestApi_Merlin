@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TestApi</string>
+    <string name="checktrong">Không được nhập trống</string>
+</resources>
