@@ -1,5 +1,5 @@
 
-package com.example.testapi.model;
+package com.example.testapi.model.login;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
@@ -32,7 +32,7 @@ public class UserInfo {
     private String phoneNumber;
     @SerializedName("stateCode")
     @Expose
-    private Integer stateCode;
+    private Long stateCode;
     @SerializedName("description")
     @Expose
     private String description;
@@ -44,16 +44,16 @@ public class UserInfo {
     private String companyId;
     @SerializedName("birthDay")
     @Expose
-    private Integer birthDay;
+    private Long birthDay;
     @SerializedName("createdDate")
     @Expose
-    private Integer createdDate;
+    private Long createdDate;
     @SerializedName("lastModifiedDate")
     @Expose
-    private Integer lastModifiedDate;
+    private Long lastModifiedDate;
     @SerializedName("sex")
     @Expose
-    private Integer sex;
+    private Long sex;
     @SerializedName("avatar")
     @Expose
     private String avatar;
@@ -65,16 +65,16 @@ public class UserInfo {
     private String assigneeVehicleId;
     @SerializedName("agencyStatus")
     @Expose
-    private Integer agencyStatus;
+    private Long agencyStatus;
     @SerializedName("commissionRate")
     @Expose
-    private Integer commissionRate;
+    private Long commissionRate;
     @SerializedName("totalDeposits")
     @Expose
-    private Integer totalDeposits;
+    private Long totalDeposits;
     @SerializedName("reasonCode")
     @Expose
-    private Integer reasonCode;
+    private Long reasonCode;
     @SerializedName("district")
     @Expose
     private String district;
@@ -92,25 +92,25 @@ public class UserInfo {
     private Double currentLatitude;
     @SerializedName("lockType")
     @Expose
-    private Integer lockType;
+    private Long lockType;
     @SerializedName("lockToTime")
     @Expose
-    private Integer lockToTime;
+    private Long lockToTime;
     @SerializedName("lastLogin")
     @Expose
-    private Integer lastLogin;
+    private Long lastLogin;
     @SerializedName("notifyOption")
     @Expose
-    private Integer notifyOption;
+    private Long notifyOption;
     @SerializedName("userType")
     @Expose
-    private Integer userType;
+    private Long userType;
     @SerializedName("userStatus")
     @Expose
-    private Integer userStatus;
+    private Long userStatus;
     @SerializedName("verifyStatus")
     @Expose
-    private Integer verifyStatus;
+    private Long verifyStatus;
     @SerializedName("taxCompanyName")
     @Expose
     private String taxCompanyName;
@@ -122,10 +122,10 @@ public class UserInfo {
     private String taxCompanyTaxNumber;
     @SerializedName("driverOnOff")
     @Expose
-    private Integer driverOnOff;
+    private Long driverOnOff;
     @SerializedName("driverType")
     @Expose
-    private Integer driverType;
+    private Long driverType;
     @SerializedName("updateUser")
     @Expose
     private String updateUser;
@@ -134,7 +134,7 @@ public class UserInfo {
     private String updateUserFullName;
     @SerializedName("updatedDate")
     @Expose
-    private Integer updatedDate;
+    private Long updatedDate;
     @SerializedName("reputation")
     @Expose
     private Double reputation;
@@ -206,11 +206,11 @@ public class UserInfo {
         this.phoneNumber = phoneNumber;
     }
 
-    public Integer getStateCode() {
+    public Long getStateCode() {
         return stateCode;
     }
 
-    public void setStateCode(Integer stateCode) {
+    public void setStateCode(Long stateCode) {
         this.stateCode = stateCode;
     }
 
@@ -238,35 +238,35 @@ public class UserInfo {
         this.companyId = companyId;
     }
 
-    public Integer getBirthDay() {
+    public Long getBirthDay() {
         return birthDay;
     }
 
-    public void setBirthDay(Integer birthDay) {
+    public void setBirthDay(Long birthDay) {
         this.birthDay = birthDay;
     }
 
-    public Integer getCreatedDate() {
+    public Long getCreatedDate() {
         return createdDate;
     }
 
-    public void setCreatedDate(Integer createdDate) {
+    public void setCreatedDate(Long createdDate) {
         this.createdDate = createdDate;
     }
 
-    public Integer getLastModifiedDate() {
+    public Long getLastModifiedDate() {
         return lastModifiedDate;
     }
 
-    public void setLastModifiedDate(Integer lastModifiedDate) {
+    public void setLastModifiedDate(Long lastModifiedDate) {
         this.lastModifiedDate = lastModifiedDate;
     }
 
-    public Integer getSex() {
+    public Long getSex() {
         return sex;
     }
 
-    public void setSex(Integer sex) {
+    public void setSex(Long sex) {
         this.sex = sex;
     }
 
@@ -294,35 +294,35 @@ public class UserInfo {
         this.assigneeVehicleId = assigneeVehicleId;
     }
 
-    public Integer getAgencyStatus() {
+    public Long getAgencyStatus() {
         return agencyStatus;
     }
 
-    public void setAgencyStatus(Integer agencyStatus) {
+    public void setAgencyStatus(Long agencyStatus) {
         this.agencyStatus = agencyStatus;
     }
 
-    public Integer getCommissionRate() {
+    public Long getCommissionRate() {
         return commissionRate;
     }
 
-    public void setCommissionRate(Integer commissionRate) {
+    public void setCommissionRate(Long commissionRate) {
         this.commissionRate = commissionRate;
     }
 
-    public Integer getTotalDeposits() {
+    public Long getTotalDeposits() {
         return totalDeposits;
     }
 
-    public void setTotalDeposits(Integer totalDeposits) {
+    public void setTotalDeposits(Long totalDeposits) {
         this.totalDeposits = totalDeposits;
     }
 
-    public Integer getReasonCode() {
+    public Long getReasonCode() {
         return reasonCode;
     }
 
-    public void setReasonCode(Integer reasonCode) {
+    public void setReasonCode(Long reasonCode) {
         this.reasonCode = reasonCode;
     }
 
@@ -366,59 +366,59 @@ public class UserInfo {
         this.currentLatitude = currentLatitude;
     }
 
-    public Integer getLockType() {
+    public Long getLockType() {
         return lockType;
     }
 
-    public void setLockType(Integer lockType) {
+    public void setLockType(Long lockType) {
         this.lockType = lockType;
     }
 
-    public Integer getLockToTime() {
+    public Long getLockToTime() {
         return lockToTime;
     }
 
-    public void setLockToTime(Integer lockToTime) {
+    public void setLockToTime(Long lockToTime) {
         this.lockToTime = lockToTime;
     }
 
-    public Integer getLastLogin() {
+    public Long getLastLogin() {
         return lastLogin;
     }
 
-    public void setLastLogin(Integer lastLogin) {
+    public void setLastLogin(Long lastLogin) {
         this.lastLogin = lastLogin;
     }
 
-    public Integer getNotifyOption() {
+    public Long getNotifyOption() {
         return notifyOption;
     }
 
-    public void setNotifyOption(Integer notifyOption) {
+    public void setNotifyOption(Long notifyOption) {
         this.notifyOption = notifyOption;
     }
 
-    public Integer getUserType() {
+    public Long getUserType() {
         return userType;
     }
 
-    public void setUserType(Integer userType) {
+    public void setUserType(Long userType) {
         this.userType = userType;
     }
 
-    public Integer getUserStatus() {
+    public Long getUserStatus() {
         return userStatus;
     }
 
-    public void setUserStatus(Integer userStatus) {
+    public void setUserStatus(Long userStatus) {
         this.userStatus = userStatus;
     }
 
-    public Integer getVerifyStatus() {
+    public Long getVerifyStatus() {
         return verifyStatus;
     }
 
-    public void setVerifyStatus(Integer verifyStatus) {
+    public void setVerifyStatus(Long verifyStatus) {
         this.verifyStatus = verifyStatus;
     }
 
@@ -446,19 +446,19 @@ public class UserInfo {
         this.taxCompanyTaxNumber = taxCompanyTaxNumber;
     }
 
-    public Integer getDriverOnOff() {
+    public Long getDriverOnOff() {
         return driverOnOff;
     }
 
-    public void setDriverOnOff(Integer driverOnOff) {
+    public void setDriverOnOff(Long driverOnOff) {
         this.driverOnOff = driverOnOff;
     }
 
-    public Integer getDriverType() {
+    public Long getDriverType() {
         return driverType;
     }
 
-    public void setDriverType(Integer driverType) {
+    public void setDriverType(Long driverType) {
         this.driverType = driverType;
     }
 
@@ -478,11 +478,11 @@ public class UserInfo {
         this.updateUserFullName = updateUserFullName;
     }
 
-    public Integer getUpdatedDate() {
+    public Long getUpdatedDate() {
         return updatedDate;
     }
 
-    public void setUpdatedDate(Integer updatedDate) {
+    public void setUpdatedDate(Long updatedDate) {
         this.updatedDate = updatedDate;
     }
 
@@ -494,12 +494,11 @@ public class UserInfo {
         this.reputation = reputation;
     }
 
-    public Boolean getIsHasPassword() {
+    public Boolean getHasPassword() {
         return isHasPassword;
     }
 
-    public void setIsHasPassword(Boolean isHasPassword) {
-        this.isHasPassword = isHasPassword;
+    public void setHasPassword(Boolean hasPassword) {
+        isHasPassword = hasPassword;
     }
-
 }

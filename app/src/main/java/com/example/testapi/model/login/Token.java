@@ -1,5 +1,5 @@
 
-package com.example.testapi.model;
+package com.example.testapi.model.login;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
@@ -14,7 +14,7 @@ public class Token {
     private String refreshKey;
     @SerializedName("expiryTime")
     @Expose
-    private Integer expiryTime;
+    private Long expiryTime;
     @SerializedName("userId")
     @Expose
     private String userId;
@@ -35,11 +35,11 @@ public class Token {
         this.refreshKey = refreshKey;
     }
 
-    public Integer getExpiryTime() {
+    public Long getExpiryTime() {
         return expiryTime;
     }
 
-    public void setExpiryTime(Integer expiryTime) {
+    public void setExpiryTime(Long expiryTime) {
         this.expiryTime = expiryTime;
     }
 
@@ -50,5 +50,4 @@ public class Token {
     public void setUserId(String userId) {
         this.userId = userId;
     }
-
 }

@@ -1,5 +1,5 @@
 
-package com.example.testapi.model;
+package com.example.testapi.model.login;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;

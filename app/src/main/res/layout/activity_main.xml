@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".ui.login.activity.MainActivity">
+
 
     <EditText
         android:inputType="number"
@@ -17,36 +18,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
-    <EditText
-        android:inputType="number"
-        android:layout_margin="10dp"
-        android:id="@+id/edStateCode"
-        android:textColor="@android:color/black"
-        android:textSize="18sp"
-        android:hint="StateCode"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
-    <EditText
-        android:inputType="number"
-        android:layout_margin="10dp"
-        android:id="@+id/edDeviceType"
-        android:textColor="@android:color/black"
-        android:textSize="18sp"
-        android:hint="DeviceType"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
     <Button
-        android:onClick="OnClickDangNhap"
+        android:id="@+id/btnDangNhap"
         android:textSize="16sp"
         android:textAllCaps="false"
         android:text="Đăng nhập"
         android:layout_margin="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
-
-
 
 
 </LinearLayout>
